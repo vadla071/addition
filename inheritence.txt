@@ -1,0 +1,23 @@
+#include<iostream>
+class base 
+{
+	public:
+		a(){
+			std::cout<<"a";
+		}
+};
+class Derived:public base
+{
+	public:
+	b()
+	{
+		std::cout<<"b";
+	}
+};
+int main()
+{
+	Derived obj;
+	obj.b();
+	obj.a();
+	return 0;
+}
