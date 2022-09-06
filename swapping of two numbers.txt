@@ -1,0 +1,19 @@
+#include<iostream>
+void swap(int,int);
+int main()
+{
+	int a,b;
+	std::cout<<"enter the two numbers";
+	std::cin>>a>>b;
+	std::cout<<"\n after swapping two numbers;";
+	swap(a,b);
+	return 0;
+}
+void swap(int x,int y)
+{
+	int z;
+	z=x;
+	x=y;
+	y=z;
+	std::cout<<" "<<x<<" "<<y;
+}
