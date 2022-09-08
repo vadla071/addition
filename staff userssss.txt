@@ -1,0 +1,11 @@
+#include<iostream>
+int main()
+{
+	int a,b,c;
+	std::cout<<"enter total number of users:";
+	std::cin>>a;
+	cout<<"enter no of staff users:";
+	std::cin>>b;
+	c=a-b-(b/3);
+	std::cout<<"student users"<<c;
+}
