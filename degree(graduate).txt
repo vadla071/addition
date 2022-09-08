@@ -1,0 +1,29 @@
+#include<iostream>
+class Degree
+{
+	public:
+		degree()
+		{
+			std::cout<<"i have a degree";
+		}
+};
+class undergraduate: public Degree
+{
+	public:
+		undergraduate()
+		{
+			std::cout<<"i am an undergraduate";
+		}
+};
+class postgraduate: public Degree
+{
+	public:
+		postgraduate(){
+			std::cout<<"iam post graduate";
+		}
+};
+int main()
+{
+	undergraduate u;
+	postgraduate p;
+}
