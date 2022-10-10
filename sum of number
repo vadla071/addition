@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int i,n,s=0;
+	cout<<"enter the number";
+	cin>>n;
+	while(i<=n)
+	{
+		s+=i;
+		i++;
+	}
+	cout<<s;
+}
